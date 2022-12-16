@@ -286,7 +286,6 @@ routes.post('/upload/:id', (req, res) => {
 
     multiUpload(req, res, function (err) {
         if (err instanceof multer.MulterError) {
-            console.log(err);
             res
             .status(500)
             .send({

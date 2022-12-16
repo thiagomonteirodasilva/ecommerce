@@ -4,7 +4,6 @@ import { Button } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import { Link, useNavigate } from 'react-router-dom';
 import { headers } from '../services/headers'
-import { checkAuthToken } from '../services/checkCookie'
 
 const Login = () => {
   const [inputs, setInputs] = useState({
