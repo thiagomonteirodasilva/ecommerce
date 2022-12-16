@@ -1,0 +1,13 @@
+.card {
+  width: 80%
+}
+
+.nav-link,
+.navbar-brand {
+  color: #FFF
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #888
+}
